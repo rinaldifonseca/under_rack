@@ -1,13 +1,12 @@
-# UnderRack
+== UnderRack
 
 A simple Ruby Framework for you understand Rack(Ruby Webserver Interface)
 
-## Example
+== Example
 
 * gem install under_rack
 * create a new file called app.ru with:
 
-`
     require "rubygems"
     require "under_rack"
 
@@ -26,9 +25,9 @@ A simple Ruby Framework for you understand Rack(Ruby Webserver Interface)
 
     run app_root
 
-* create a new file called hello.erb with:
+* Create a new file called hello.erb with:
 
-    `<p>Hello <%= @name %></p>`
+    <p>Hello <%= @name %></p>
 
 * Run the application with: rackup app.ru
 
